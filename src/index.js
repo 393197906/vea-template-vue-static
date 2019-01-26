@@ -4,9 +4,11 @@ import App from './App.vue'
 import router from './router'
 Vue.use(VueMeta)
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
+const root = new Vue({
   router,
   components: { App },
   template: '<App/>'
+})
+document.addEventListener('DOMContentLoaded', function () {
+  root.$mount('#app')
 })
