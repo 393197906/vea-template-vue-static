@@ -12,7 +12,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "vea": "^1.1.0-alpha",
+    "vea": "^1.1.1-alpha",
     "vue-meta": "^1.5.8"
   },
   "devDependencies": {
