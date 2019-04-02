@@ -12,8 +12,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "vea": "^1.1.1-alpha",
-    "vue-meta": "^1.5.8"
+    "vea": "latest",
+    "vue-meta": "^1.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
